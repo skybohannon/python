@@ -5,12 +5,15 @@
 # If they are, welcome them to the holiday, otherwise print
 # a (polite) message refusing them entry.
 
+
 name = input("What is your name? ")
 age = int(input("What is your age? "))
 
 if (age >= 18 and age < 31):
-    print("You are {0}, and in the correct age bracket for this trip, {1}.\nEnjoy your trip!".format(age,name))
+    print("Hello, {0} You are {1} years old and eligable for the holiday".format(name, age))
+
 elif (age < 18):
-    print("Sorry, you are {0} and too young for this trip, {1}".format(age,name))
+    print("Hello, {0} You are {1} years old and too young for the holiday".format(name, age))
+
 else:
-    print("Sorry, you are {0} and too old for this trip, {1}".format(age,name))
+    print("Hello, {0} You are {1} years old and too old for the holiday".format(name, age))

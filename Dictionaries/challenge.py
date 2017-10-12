@@ -14,12 +14,23 @@ locations = {0: "You are standing in front of a computer learning Python",
              4: "You are in a valley beside a stream",
              5: "You are in the forest"}
 
-exits = [{"Q": 0},
-         {"W": 2, "E": 3, "N": 5, "S": 4, "Q": 0},
-         {"N": 5, "Q": 0},
-         {"W": 1, "Q": 0},
-         {"W": 1, "W": 2, "Q": 0},
-         {"W": 2, "S": 1, "Q": 0}]
+exits = { 0: {"Q": 0},
+          1: {"W": 2, "E": 3, "N": 5, "S": 4, "Q": 0},
+          2: {"N": 5, "Q": 0},
+          3: {"W": 1, "Q": 0},
+          4: {"N": 1, "W": 2, "Q": 0},
+          5: {"W": 2, "S": 1, "Q": 0}
+          }
+possibleWords = {"QUIT": "Q",
+                  "NORTH": "N",
+                  "SOUTH": "S",
+                  "EAST": "E",
+                  "WEST": "W"
+                }
+
+# print(locations[0].split())
+# print(locations[3].split(","))
+# print(' '.join(locations[0].split()))
 
 loc = 1
 while True:
@@ -31,7 +42,17 @@ while True:
 
     direction = input("Available exits are " + availableExits + " ").upper()
     print()
+
+    #parse user input, using our dictionary
+    if len(direction) > 1:
+        words = direction.split()
+        for word in words:
+            if word in possibleWords:
+                direction = possibleWords[word]
+                break
+
     if direction in exits[loc]:
         loc = exits[loc][direction]
     else:
         print("You cannot go in the direction")
+

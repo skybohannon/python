@@ -34,15 +34,11 @@ if ipAddress[-1] != '.':
 
 segment = 1
 segmentLength = 0
-# character = ''
 
 for character in ipAddress:
     if character == '.':
-        print("There are {} characters in segment {}".format(segmentLength, segment))
+        print("Segment {} is {} characters".format(segment, segmentLength))
         segment += 1
         segmentLength = 0
     else:
         segmentLength += 1
-
-# if character != '.':
-#     print("There are {} characters in segment {}".format(segmentLength, segment))

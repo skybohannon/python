@@ -27,6 +27,13 @@ locations = {0: {"desc": "You are sitting in front of a computer learning Python
                  "namedExits": {"2": 2, "1": 1}}
              }
 
+players = {
+    1: {"playerName": "Bohannon",
+        "playerPrice": "$4.5m",
+        "playerTeam": "Biscuits"}
+}
+
+
 vocabulary = {"QUIT": "Q",
               "NORTH": "N",
               "SOUTH": "S",

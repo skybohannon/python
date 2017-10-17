@@ -2,28 +2,41 @@ fruit = {"orange": "a sweet, orange, citrus fruit",
          "apple": "good for making cider",
          "lemon": "a sour, yellow, citrus fruit",
          "grape": "a small, sweet fruit, grown in bunches",
-         "lime": "a sour, green citrus fruit",
-         }
-
-# print(fruit)
-# print(fruit["lemon"])
-# fruit["pear"] = "an odd shaped apple"
-# print(fruit)
-# fruit["lime"] = "great with tequila"
-# print(fruit)
-# # del fruit["lemon"]
-# # fruit.clear() #clear entire dictionary
-# # print(fruit)
-#
-# print(fruit["tomato"])
+         "lime": "a sour, green citrus fruit"}
 
 print(fruit)
-while True:
-    dictKey = input("Please enter a fruit: ")
-    if dictKey == "quit":
-        break
-    if dictKey in fruit:
-        description = fruit.get(dictKey)
-        print(description)
-    else:
-        print("Don't have a " + dictKey)
+
+# orderedKeys = sorted(list(fruit.keys()))
+# print(orderedKeys)
+# for f in orderedKeys:
+#     print(f + " - " + fruit[f])
+
+# for f in sorted(fruit.keys()):
+#     print(f + " - " + fruit[f])
+
+# for f in fruit:
+#     print(f + " - " + fruit[f])
+
+# for val in fruit.values():
+#     print(val)
+#
+# print("-" * 40)
+
+# fruitKeys = fruit.keys()
+# print(fruitKeys)
+#
+# fruit["tomato"] = "not nice with ice cream"
+# print(fruitKeys)
+#
+# print(fruit.keys())
+# print(fruit.values())
+
+print(fruit.items())
+f_tuple = tuple(fruit.items())
+print(f_tuple)
+
+for snack in f_tuple:
+    item, description = snack
+    print(item + " is " + description)
+
+print(dict(f_tuple))

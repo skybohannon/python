@@ -11,11 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="program_flow_challenge.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="program_flow_challenge.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program_flow_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="332">
+              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="program_flow_challenge-2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/program_flow_challenge-2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -34,6 +44,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/program_flow_challenge.py" />
+        <option value="$PROJECT_DIR$/program_flow_challenge-2.py" />
       </list>
     </option>
   </component>
@@ -58,6 +69,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -70,7 +82,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -88,7 +99,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.program_flow_challenge">
+  <component name="RunManager" selected="Python.program_flow_challenge-2">
+    <configuration name="program_flow_challenge-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ProgramFlowChallenge" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/program_flow_challenge-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="program_flow_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,9 +134,14 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.program_flow_challenge" />
+      <item index="1" class="java.lang.String" itemvalue="Python.program_flow_challenge-2" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.program_flow_challenge" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.program_flow_challenge-2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.program_flow_challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -183,8 +216,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/program_flow_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program_flow_challenge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program_flow_challenge-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding />
         </state>
       </provider>

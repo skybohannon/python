@@ -11,36 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="numberguessing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/numberguessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="palindrome.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/palindrome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listcomprehensions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listcomprehensions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rockpaperscissors.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rockpaperscissors.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,38 +34,18 @@
       <file leaf-file-name="primality.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/primality.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listends.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listends.py">
+      <file leaf-file-name="reversewordorder.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reversewordorder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fibonacci.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fibonacci.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listlessthanten.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listlessthanten.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -134,12 +84,13 @@
         <option value="$PROJECT_DIR$/primality.py" />
         <option value="$PROJECT_DIR$/listends.py" />
         <option value="$PROJECT_DIR$/fibonacci.py" />
+        <option value="$PROJECT_DIR$/reversewordorder.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
-    <option name="y" value="230" />
+    <option name="x" value="231" />
+    <option name="y" value="196" />
     <option name="width" value="1311" />
     <option name="height" value="851" />
   </component>
@@ -189,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fibonacci">
+  <component name="RunManager" selected="Python.reversewordorder">
     <configuration name="fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,23 +171,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="RandomProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listends.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="numberguessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="RandomProjects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numberguessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,20 +209,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="reversewordorder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="RandomProjects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reversewordorder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.randompassword" />
-      <item index="1" class="java.lang.String" itemvalue="Python.numberguessing" />
-      <item index="2" class="java.lang.String" itemvalue="Python.primality" />
-      <item index="3" class="java.lang.String" itemvalue="Python.listends" />
-      <item index="4" class="java.lang.String" itemvalue="Python.fibonacci" />
+      <item index="1" class="java.lang.String" itemvalue="Python.primality" />
+      <item index="2" class="java.lang.String" itemvalue="Python.listends" />
+      <item index="3" class="java.lang.String" itemvalue="Python.fibonacci" />
+      <item index="4" class="java.lang.String" itemvalue="Python.reversewordorder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fibonacci" />
-        <item index="1" class="java.lang.String" itemvalue="Python.listends" />
-        <item index="2" class="java.lang.String" itemvalue="Python.primality" />
-        <item index="3" class="java.lang.String" itemvalue="Python.randompassword" />
-        <item index="4" class="java.lang.String" itemvalue="Python.numberguessing" />
+        <item index="0" class="java.lang.String" itemvalue="Python.reversewordorder" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fibonacci" />
+        <item index="2" class="java.lang.String" itemvalue="Python.listends" />
+        <item index="3" class="java.lang.String" itemvalue="Python.primality" />
+        <item index="4" class="java.lang.String" itemvalue="Python.randompassword" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +257,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="230" width="1311" height="851" extended-state="0" />
+    <frame x="231" y="196" width="1311" height="851" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -564,10 +515,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numberguessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -588,18 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numberguessing.py">
+    <entry file="file://$PROJECT_DIR$/randompassword.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divisors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -612,34 +579,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/randompassword.py">
+    <entry file="file://$PROJECT_DIR$/divisors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listends.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/primality.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fibonacci.py">
+    <entry file="file://$PROJECT_DIR$/reversewordorder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding />
         </state>
       </provider>

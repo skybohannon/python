@@ -1,6 +1,7 @@
 def uplowcalc(sentence):
 
     d = {"UPPER": 0, "LOWER": 0}
+
     for c in sentence:
         if c.isupper():
             d["UPPER"] += 1
@@ -12,4 +13,22 @@ def uplowcalc(sentence):
     print("There were {} upper case characters".format(d["UPPER"]))
     print("There were {} lower case characters".format(d["LOWER"]))
 
-uplowcalc('The quick Brown Fox')
+sentence = input("Please enter a sentence")
+
+uplowcalc(sentence)
+
+# upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# lowerChars = "abcdefghijklmnopqrstuvwxyz"
+#
+# lowerCount = 0
+# upperCount = 0
+#
+# sentence = input("Please enter a sentence: ")
+#
+# for x in sentence:
+#     if x in upperChars:
+#         upperCount += 1
+#     if x in lowerChars:
+#         lowerCount += 1
+#
+# print("Lower case characters: {}\nUpper case characters: {}".format(upperCount, lowerCount))

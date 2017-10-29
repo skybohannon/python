@@ -1,6 +1,6 @@
 import random
 
-with open ('sowpods.txt', 'r') as sowpods:
+with open('sowpods.txt', 'r') as sowpods:
     wordList = list(sowpods)
     chosenWord = random.choice(wordList).strip()
     chosenWordList = list(chosenWord)

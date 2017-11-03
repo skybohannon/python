@@ -30,8 +30,10 @@ def add_birthday():
     print("{} was added to the birthday dictionary.\n".format(name))
 
 def list_names():
+    names = []
     for i in birthday:
-        print(i)
+        names = names.append(i)
+    print(names)
 
 def lookup_birthday():
     nameChoice = input("Whose birthday would you like to lookup? ").title()
@@ -46,10 +48,6 @@ def count_months():
         month = int(birthday_string.split("/")[0])
         months.append(month_to_string[month])
     monthDict = dict(Counter(months))
-
-    # print(monthList)
-    # sortedMonthList = sorted(monthList.values(), reverse= True)
-    # print(sortedMonthList)
 
     for i in monthDict:
         print(i + ": " + str(monthDict[i]))

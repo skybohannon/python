@@ -20,17 +20,16 @@
 
 totalAmount = 0
 userInput = "D 500 W 200 D 100 W 200"
-x = tuple(userInput.split(" "))
+x = userInput.split(" ")
 print(x)
-operation = x[0]
-amount = int(x[1])
 
-if operation == "D":
-    amount += totalAmount
-    print(totalAmount)
-elif operation == "W":
-    amount -= totalAmount
-else:
-    pass
 
-print(str(totalAmount))
+
+for i in x:
+    if i.isalpha():
+        if i == "D":
+            print(i[::2])
+        if i == "W":
+            print("shit")
+    else:
+        pass

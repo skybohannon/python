@@ -11,36 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="question6.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/question6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="question8.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/question8.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="question10.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/question10.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="question11.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question11.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,11 +71,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question17.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="question17.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question17.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="595">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question18.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question18.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question20.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question20.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question22.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/question22.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,14 +139,19 @@
         <option value="$PROJECT_DIR$/question15.py" />
         <option value="$PROJECT_DIR$/question16.py" />
         <option value="$PROJECT_DIR$/question17.py" />
+        <option value="$PROJECT_DIR$/question18.py" />
+        <option value="$PROJECT_DIR$/question19.py" />
+        <option value="$PROJECT_DIR$/question20.py" />
+        <option value="$PROJECT_DIR$/question21.py" />
+        <option value="$PROJECT_DIR$/question22.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="591" />
-    <option name="y" value="169" />
-    <option name="width" value="1058" />
-    <option name="height" value="572" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -194,8 +199,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.question17">
-    <configuration name="question13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.question22">
+    <configuration name="question18" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -207,12 +212,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PracticeExercises" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question13.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question18.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="question14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="question19" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -224,12 +229,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PracticeExercises" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question19.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="question15" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="question20" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -241,12 +246,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PracticeExercises" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question15.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question20.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="question16" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="question21" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -258,12 +263,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PracticeExercises" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question16.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question21.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="question17" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="question22" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -275,25 +280,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PracticeExercises" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question17.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question22.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.question13" />
-      <item index="1" class="java.lang.String" itemvalue="Python.question14" />
-      <item index="2" class="java.lang.String" itemvalue="Python.question15" />
-      <item index="3" class="java.lang.String" itemvalue="Python.question16" />
-      <item index="4" class="java.lang.String" itemvalue="Python.question17" />
+      <item index="0" class="java.lang.String" itemvalue="Python.question18" />
+      <item index="1" class="java.lang.String" itemvalue="Python.question19" />
+      <item index="2" class="java.lang.String" itemvalue="Python.question20" />
+      <item index="3" class="java.lang.String" itemvalue="Python.question21" />
+      <item index="4" class="java.lang.String" itemvalue="Python.question22" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.question17" />
-        <item index="1" class="java.lang.String" itemvalue="Python.question16" />
-        <item index="2" class="java.lang.String" itemvalue="Python.question15" />
-        <item index="3" class="java.lang.String" itemvalue="Python.question14" />
-        <item index="4" class="java.lang.String" itemvalue="Python.question13" />
+        <item index="0" class="java.lang.String" itemvalue="Python.question22" />
+        <item index="1" class="java.lang.String" itemvalue="Python.question21" />
+        <item index="2" class="java.lang.String" itemvalue="Python.question20" />
+        <item index="3" class="java.lang.String" itemvalue="Python.question19" />
+        <item index="4" class="java.lang.String" itemvalue="Python.question18" />
       </list>
     </recent_temporary>
   </component>
@@ -505,8 +510,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/question17.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question18.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question19.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question21.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question20.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question22.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>

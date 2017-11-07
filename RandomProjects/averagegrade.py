@@ -8,19 +8,19 @@ def averages(lst):
     new_list = []
     for student in lst:
         total_score = 0
-        average_score = 0
         student_list = []
 
         student_list.append(student[0])
         grade_list = student[1:]
+        grade_count = len(grade_list)
 
         for grade in grade_list:
-            grade_count = len(grade_list)
             total_score = total_score + grade
-            average_score = total_score / grade_count
 
+        average_score = total_score / grade_count
         student_list.append(average_score)
         new_list.append(student_list)
+
     return new_list
 
 

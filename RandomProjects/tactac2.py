@@ -8,13 +8,18 @@ def switch_player(player):
     else:
         return 1
 
-def draw_line(width, edge, filling):
-    print(filling.join([edge] * (width + 1)))
+def draw_line():
+    print(" _ _ _ ")
 
 
 def display_game(game):
-    d = { 2: "2", 1: "1", 0: "_"}
-    draw_line(3, " ", "_")
+    d = {2: "O", 1: "X", 0: "_"}
+    draw_line()
+    for row_num in range(3):
+        new_rows = []
+        for col_num in range(3):
+            new_rows.append(d[game[row_num][col_num]])
+        print("|" + "|".join(new_rows) + "|")
 
 def convert_input(user_input):
     return user_input - 1

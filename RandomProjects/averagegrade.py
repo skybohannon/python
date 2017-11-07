@@ -9,14 +9,14 @@ def averages(lst):
     for student in lst:
         total_score = 0
         student_list = []
-
         student_list.append(student[0])
+
         grade_list = student[1:]
-        grade_count = len(grade_list)
 
         for grade in grade_list:
             total_score = total_score + grade
 
+        grade_count = len(grade_list)
         average_score = total_score / grade_count
         student_list.append(average_score)
         new_list.append(student_list)
@@ -24,4 +24,6 @@ def averages(lst):
     return new_list
 
 
-print(averages(gradeList))
+averageList = averages(gradeList)
+for student in averageList:
+    print("{}: {}".format(student[0], student[1]))

@@ -27,3 +27,9 @@ def averages(lst):
 averageList = averages(gradeList)
 for student in averageList:
     print("{}: {}".format(student[0], student[1]))
+
+
+# Processor: Intel Core i5-2520M @ 3.20GHz (4 Cores), Motherboard: LENOVO 4180W59,
+# Chipset: Intel 2nd Generation Core Family DRAM, Memory: 8192MB, Disk: 500GB TOSHIBA MQ01ACF0,
+# Graphics: Intel Sandybridge Mobile 1536MB (1300MHz), Audio: Conexant CX20590,
+# Network: Intel 82579LM Gigabit Connection + Intel Centrino Advanced-N 6205

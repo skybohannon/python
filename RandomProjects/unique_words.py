@@ -1,7 +1,6 @@
 # Return a set of the words in text that occur exactly once.
+# "The boy jumped over the other boy"
 # {'jumped', 'other', 'over'}
-
-sentence = "The boy jumped over the other boy"
 
 
 def unique_words(s):
@@ -13,10 +12,11 @@ def unique_words(s):
         d[i] += 1
 
     for k, v in d.items():
-        if v <= 1:
+        if v == 1:
             word_set.add(k)
 
     return word_set
 
 
-print(unique_words(sentence))
+userSentence = input("LET'S FIND SOME UNIQUE WORDS!\nPlease enter a sentence: ")
+print(unique_words(userSentence))

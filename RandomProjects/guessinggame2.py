@@ -16,10 +16,10 @@ while running:
         lowOrHigh = input("The computer guessed {}. Was this lower of higher? ".format(guessedNum))
 
         if lowOrHigh.lower() == "lower":
-            lowNumber = guessedNum
+            lowNumber = guessedNum + 1
             guessedNum = random.randint(lowNumber, highNumber)
         elif lowOrHigh.lower() == "higher":
-            highNumber = guessedNum
+            highNumber = guessedNum - 1
             guessedNum = random.randint(lowNumber, highNumber)
         counter += 1
 

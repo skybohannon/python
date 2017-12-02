@@ -13,9 +13,11 @@
 
 def round_sum(a, b, c):
 
-    list = [a, b, c]
-
-    for n in list
+    def round10(n):
+        remain = n % 10
+        if remain >= 5:
+            return n + (10 - remain)
+        return n - remain
 
     return round10(a)+round10(b)+round10(c)
 

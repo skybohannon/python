@@ -103,3 +103,5 @@ ENV/
 RandomProjects/\.idea/workspace\.xml
 
 RandomProjects/\.idea/
+
+RandomProjects/string-2/end_other\.py
